@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="36dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BiometricPrompt Demo"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:paddingBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnVulnerable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vulnerable CryptoObject"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnEnforced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CryptoObject Enforced" />
+
+    <TextView
+        android:id="@+id/txtReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:paddingTop="56dp"
+        android:paddingBottom="12dp" />
+</LinearLayout>
