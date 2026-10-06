@@ -4,8 +4,6 @@ A deliberately vulnerable Android app showing how `BiometricPrompt` can be
 bypassed when the authentication decision lives inside the app process, and why
 the same bypass fails when it does not.
 
-Built for a conference talk. Not a product, not hardened, not for production.
-
 ## What it does
 
 Two buttons. Both run **exactly the same setup**: an auth-bound AES/GCM key in
@@ -90,7 +88,3 @@ with no extra setup.
   in jadx against the APK you actually built before relying on it.
 - No obfuscation, no root detection, no anti-tamper. Intentional: the point is
   the trust boundary, not the hardening around it.
-
-## License
-
-MIT.
